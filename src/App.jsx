@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { getContactos, crearContacto, eliminarContacto } from './api/contactos'
 import './App.css'
+import logo from './assets/logo.png'
 
 function App() {
   const [contactos, setContactos] = useState([])
@@ -66,7 +67,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>Contactos</h1>
+        <img className="logo" src={logo} alt="Logo" width="100" /> 
         <button
           type="button"
           className="btn-add"
@@ -82,6 +83,7 @@ function App() {
           {error}
         </div>
       )}
+      <h1 className='title'>LISTA DE CONTACTOS</h1>
 
       <div className="buscador">
         <input
