@@ -1,4 +1,4 @@
-# MediCare+ Admin — PWA Clínica
+# MediCare+ Admin — PWA Clinica
 
 ![logo](/pwa_app/src/assets/logo.png)
 
@@ -19,14 +19,18 @@ git clone "https://github.com/KevinMG1601/APP_CONTACTOS/tree/parcial-01"
 ```
 git branch 
 ```
-3. instalar dependencias.
+3. Acceder a la carpeta **pwa_app**.
+```
+cd pwa_app
+```
+4. instalar dependencias.
 ```
 npm install
 ```
 
 ## Scripts
 
-| Comando      | Descripción                    |
+| Comando      | Descripcion                    |
 |--------------|--------------------------------|
 | `npm run dev`    | Servidor de desarrollo        |
 | `npm run build`  | Build de produccion y PWA     |
@@ -76,8 +80,8 @@ src/
 
 ## PWA
 
-El **Cachefirst** es util para la app porque guarda las imagenes y archivos y eso sirve para que la aplicacion carge rapido pero es bueno solo para elementos o datos que no cambien constantemente, esto no nos serviria para base de datos que tiene la informacion de citas diarias, registro de citas y demas cosas,
-Para datos con cambios contastes hay dos opciones:
+El **Cachefirst** es util para la app porque guarda las imagenes y archivos y eso sirve para que la aplicacion cargue rapido pero es bueno solo para elementos o datos que no cambien constantemente, esto no nos serviria para base de datos que tiene la informacion de citas diarias, registro de citas y demas cosas,
+Para datos con cambios constantes hay dos opciones:
 1. **NetworkFirst:** es bueno porque siempre va a tener los datos actualizados desde la red, pero podria ser lento la carga de esos datos.
 2. **Stale while revalidate:** esta seria una muy buena opcion porque lo que hace es cargar los datos que tiene en cache y en segundo plano va trayendo los datos actualizados de la red, asi mejoramos la velocidad de la app y mantenemos los datos actualizados.
 
@@ -86,12 +90,12 @@ Para datos con cambios contastes hay dos opciones:
   <tr>
     <td align="center" width="150" style="border: none;">
       <a href="https://github.com/KevinMG1601">
-        <img src="https://avatars.githubusercontent.com/u/143461336?v=4" width="100px" alt="Kevin Muñoz"/><br />
-        <span style="color: black; font-weight: bold;">Kevin Muñoz</span>
+        <img src="https://avatars.githubusercontent.com/u/143461336?v=4" width="100px" alt="Kevin Munoz"/><br />
+        <span style="color: black; font-weight: bold;">Kevin Munoz</span>
       </a>
     </td>
     <td style="border: none; vertical-align: top;">
-      Created by <b>Kevin Muñoz</b>. I would like to know your opinion about this project. You can write me by <a href="mailto:kevin.andres2636@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/kevin-mu%C3%B1oz-231b80303/">LinkedIn</a>.
+      Created by <b>Kevin Munoz</b>. I would like to know your opinion about this project. You can write me by <a href="mailto:kevin.andres2636@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/kevin-mu%C3%B1oz-231b80303/">LinkedIn</a>.
     </td>
   </tr>
 </table>
