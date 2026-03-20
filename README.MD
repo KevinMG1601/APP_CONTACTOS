@@ -1,51 +1,42 @@
-# APP_CONTACTOS
+# Challenge 5
 
-Repositorio con dos aplicaciones para la gestion clinica MediCare+.
+Aplicación de tareas con autenticación por correo/contraseña y datos en Firestore.
 
-## Aplicaciones
+## Herramientas
 
-### 1. `pwa_app` — Aplicacion web (PWA)
+- Node.js 18+
+- Firebase con **Authentication** (Email/Password) y **Firestore** habilitados
+- Tailwind
+- Sileo
+- React
 
-Aplicacion web progresiva para recepcionistas y personal administrativo.
+## Scripts
 
-- **Stack:** React, Vite, Tailwind CSS, React Router
-- **Caracteristicas:** Login, Dashboard, Perfil de usuario, PWA instalable
-- **Uso:** Navegador web, escritorio o movil
+| Comando    | Descripción        |
+| ---------- | ------------------ |
+| `npm run dev`     | Servidor de desarrollo |
+| `npm run build`   | Build de producción    |
+| `npm run preview` | Vista previa del build |
+| `npm run deploy`  | Build + subida a **Firebase Hosting** |
 
-```bash
-cd pwa_app
-npm install
-npm run dev
-```
+## Aplicación en producción
 
-Ver [pwa_app/README.md](pwa_app/README.md) para mas detalles.
+- **URL (Firebase Hosting):** [https://challegue5.web.app/](https://challegue5.web.app/)
 
----
+### Cuenta de prueba
 
-### 2. `ionic_app` — MediCare+ Visitas Medicas (movil)
+| Campo        | Valor                         |
+| ------------ | ----------------------------- |
+| Correo       | `kevin.andres2636@gmail.com`  |
+| Contraseña   | `123456`                      |
 
-Aplicacion movil para medicos: visitas del dia, recetas y pacientes.
+## Estructura principal
 
-- **Stack:** Ionic React, TypeScript, Vite, Capacitor
-- **Caracteristicas:** Login, agenda de visitas, registrar atencion, carrito de prescripciones, CRUD de pacientes, perfil
-- **Uso:** Navegador o compilable a iOS/Android con Capacitor
-
-```bash
-cd ionic_app
-npm install
-npm run dev
-```
-
-Ver [ionic_app/README.md](ionic_app/README.md) para mas detalles.
-
----
-
-## Credenciales de prueba (ambas apps)
-
-| Email                  | Contrasena |
-|------------------------|------------|
-| medico@clinica.com     | 123456     |
-| recepcion@clinica.com  | 123456     |
+- `src/context/` — `AuthContext`, `TasksContext`
+- `src/hooks/` — `useAuth`, `useTasks`, `useProtectedRoute`
+- `src/pages/` — pantallas y formularios
+- `src/routes/AppRouter.jsx` — rutas y rutas protegidas
+- `src/firebase/config.js` — inicialización de Firebase
 
 
 ## **AUTHOR**
