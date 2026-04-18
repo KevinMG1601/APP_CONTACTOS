@@ -1,0 +1,7 @@
+{
+  "name": "missions-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

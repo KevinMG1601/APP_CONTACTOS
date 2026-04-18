@@ -1,5 +1,38 @@
-# Challenge 6
+# PARCIAL 2
 
+App de misiones (Ionic + React + Capacitor) con Firebase Auth y Firestore: foto con camara, recorrido con GPS, permanencia con acelerometro, notificaciones y ranking local.
+
+## Requisitos
+
+- Node.js (LTS recomendado)
+- Cuenta y proyecto Firebase configurado en el codigo (`src/firebase/config.ts`)
+
+## Comandos utiles
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+Para Android (tras `npm run build`): `npx cap sync android` y abrir la carpeta `android` en Android Studio.
+
+## Evidencias 
+
+### 1. Login / registro
+![Evidencia login o registro](/assets/login.jpeg)
+
+### 2. registro
+![Evidencia mision foto](/assets/registro.jpeg)
+
+### 3. Home
+![Evidencia mision GPS](/assets/home.jpeg)
+
+### 4. Android Studio
+![Evidencia mision acelerometro](/assets/android.png)
+
+### 5. Resultados o ranking
+![Evidencia resultados o ranking](/assets/ranking.jpeg)
 
 ## **AUTHOR**
 <table style="border-collapse: collapse; border: none;">
