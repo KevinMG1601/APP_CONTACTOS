@@ -1,0 +1,12 @@
+<ion-app>
+  @if (offlineBanner$ | async) {
+    <div
+      class="bg-amber-500 text-white text-center text-xs font-medium py-2 px-3 safe-top"
+      role="status"
+      aria-live="polite"
+    >
+      Sin conexión — Contacts y Tasks limitados (cola local activa)
+    </div>
+  }
+  <ion-router-outlet></ion-router-outlet>
+</ion-app>

@@ -1,42 +1,4 @@
-# Challenge 5
-
-Aplicación de tareas con autenticación por correo/contraseña y datos en Firestore.
-
-## Herramientas
-
-- Node.js 18+
-- Firebase con **Authentication** (Email/Password) y **Firestore** habilitados
-- Tailwind
-- Sileo
-- React
-
-## Scripts
-
-| Comando    | Descripción        |
-| ---------- | ------------------ |
-| `npm run dev`     | Servidor de desarrollo |
-| `npm run build`   | Build de producción    |
-| `npm run preview` | Vista previa del build |
-| `npm run deploy`  | Build + subida a **Firebase Hosting** |
-
-## Aplicación en producción
-
-- **URL (Firebase Hosting):** [https://challegue5.web.app/](https://challegue5.web.app/)
-
-### Cuenta de prueba
-
-| Campo        | Valor                         |
-| ------------ | ----------------------------- |
-| Correo       | `kevin.andres2636@gmail.com`  |
-| Contraseña   | `123456`                      |
-
-## Estructura principal
-
-- `src/context/` — `AuthContext`, `TasksContext`
-- `src/hooks/` — `useAuth`, `useTasks`, `useProtectedRoute`
-- `src/pages/` — pantallas y formularios
-- `src/routes/AppRouter.jsx` — rutas y rutas protegidas
-- `src/firebase/config.js` — inicialización de Firebase
+# Challenge 6
 
 
 ## **AUTHOR**
